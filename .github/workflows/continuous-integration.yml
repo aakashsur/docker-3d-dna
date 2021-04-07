@@ -22,6 +22,3 @@ jobs:
         with:
           push: true
           tags: aakashsur/3d-dna:latest
-      -
-        name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}
