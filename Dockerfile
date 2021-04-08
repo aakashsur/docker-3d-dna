@@ -6,6 +6,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
         default-jre \
         gawk \
         parallel \
+        perl \
         python3 \
         python3-pip \
         git && \
