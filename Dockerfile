@@ -28,8 +28,9 @@ RUN cd && \
     chmod +x /root/3d-dna/run-asm-pipeline.sh && \
     ln -s /root/3d-dna/run-asm-pipeline.sh /root/3d-dna/3d-dna
 
-ENV LC_ALL=en_US.UTF-8 \
-    LANGUAGE=en_US.UTF-8 \
+ENV LC_ALL=C.UTF-8 \
+    LANGUAGE=C.UTF-8 \
+    LANG=C.UTF-8 \
     PATH="${PATH}:/root/3d-dna"
 
     
