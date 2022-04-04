@@ -26,6 +26,7 @@ RUN python3 -m pip install --upgrade \
 RUN cd && \
     git clone https://github.com/aidenlab/3d-dna.git && \
     chmod +x /root/3d-dna/run-asm-pipeline.sh && \
+    chmod +x /root/3d-dna/run-asm-pipeline-post-review.sh && \
     ln -s /root/3d-dna/run-asm-pipeline.sh /root/3d-dna/3d-dna
 
 ENV LC_ALL=C.UTF-8 \
